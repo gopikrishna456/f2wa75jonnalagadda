@@ -21,10 +21,7 @@ router.get('/', function(req, res, next) {
         cos:cosFunction,
         asin:sinFunction,
         asinh:asinFunction,
-
-    })
-    module.exports=router;
-    
-
-  
+    });
+     
 });
+module.exports=router; 
